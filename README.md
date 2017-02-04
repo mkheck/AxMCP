@@ -1,14 +1,14 @@
 # README #
 
-*AxMCP*
+##AxMCP##
 
-Alexa interface for the Master Control Program (MCP)
+###Alexa interface for the Master Control Program (MCP)###
 
 Spring Boot-based application, deployable to Cloud Foundry. Provides Alexa integration & control of the Master Control Program I developed to monitor & control my home Renewable Energy system from the Cloud. Useful, fun, & hopefully helpful to others who may want to do the same. :)
 
 ### How do I start? ###
 
-* This is a Maven-based project, so git pull it, load it in your favorite IDE (or just `cd` into its project directory on your machine), & `mvn package`. To deploy to Cloud Foundry, just `cf push`. You will need to define the following env vars to make the application run:
+This is a Maven-based project, so `git clone` it, load it in your favorite IDE (or just `cd` into its project directory on your machine), & `mvn package`. To deploy to Cloud Foundry, just `cf push`. You will need to define the following env vars to make the application run:
 
 * WEBSOCKET_URI
 * APPLICATION_ID
