@@ -18,5 +18,5 @@ NOTE: You probably won't actually run it as-is (even providing a valid WebSocket
 ### Developer ###
 
 * Mark Heckler
-* @MkHeck
+* [@MkHeck](https://twitter.com/MkHeck)
 * mark.heckler@gmail.com
