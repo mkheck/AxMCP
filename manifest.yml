@@ -1,0 +1,5 @@
+---
+  applications:
+    - name: axmcp
+      path: target/axmcp-0.0.1-SNAPSHOT.jar
+      memory: 1G

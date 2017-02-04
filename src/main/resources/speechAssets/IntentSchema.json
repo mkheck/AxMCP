@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "intent": "ModeIntent",
+      "slots": [
+        {
+          "name": "Mode",
+          "type": "LIST_OF_MODES"
+        }
+      ]
+    },
+    {
+      "intent": "ControlIntent",
+      "slots": [
+        {
+          "name": "OnOff",
+          "type": "LIST_OF_ONOFF"
+        },
+        {
+          "name": "Device",
+          "type": "LIST_OF_DEVICES"
+        }
+      ]
+    },
+    {
+      "intent": "WindowIntent",
+      "slots": [
+        {
+          "name": "OpenClose",
+          "type": "LIST_OF_OPENCLOSE"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

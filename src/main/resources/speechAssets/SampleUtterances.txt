@@ -1,0 +1,4 @@
+ModeIntent {Mode} mode
+ControlIntent turn {OnOff} {Device}
+ControlIntent turn {Device} {OnOff}
+WindowIntent {OpenClose} windows
