@@ -34,8 +34,8 @@ public class AlexaSpeechlet implements Speechlet {
 
     @PostConstruct
     public void init() {
-        System.out.println("--->WebSocket URI: " + wsUri);
-        System.out.println("---> Application Id: " + applicationId);
+        //System.out.println("--->WebSocket URI: " + wsUri);
+        //System.out.println("---> Application Id: " + applicationId);
         try {
             this.clientManager.connectToServer(this.endpoint, URI.create(wsUri));
         } catch (DeploymentException | IOException e) {
